@@ -1,0 +1,235 @@
+.jumbotron {
+  background-image: url(tempatwisata/3.jpg);
+  background-size: cover;
+  height: 770px;
+  text-align: center;
+  margin-top: -120px;
+}
+
+.jumbotron11 {
+  background-size: cover;
+  height: 770px;
+  text-align: center;
+  margin-top: -120px;
+}
+
+.jumbotron11x {
+  text-align: center;
+}
+
+.jumbotron .display-4 {
+  color: black;
+  margin-top: 200px;
+}
+
+.jumbotron p {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.jumbotron hr {
+  border-color: #ececec;
+  border-width: 5px;
+  width: 70px;
+}
+
+.jumbotron .btn {
+  margin-top: 40px;
+}
+
+.hero__caption {
+  width: 50%;
+  margin-left: 5%;
+}
+
+.hero__caption .tulisan {
+  text-decoration: none;
+  background-color: #fff;
+  padding: 8px 10px;
+}
+
+.container {
+  background-color: rgba(112, 168, 182, 0.322);
+  height: 120%;
+}
+
+hr.new1 {
+  border: 20px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+* {
+  transition: background-color 1s;
+}
+
+body {
+  height: 100vh;
+  background-color: #d4d4d4;
+}
+
+body.dark-theme {
+  background-color: #202945;
+}
+
+.card.dark-theme {
+  background-color: #374368;
+  color: #d4d4d4;
+}
+
+.site-footer {
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #000000;
+}
+.site-footer hr {
+  border-top-color: #c3e9f3;
+  opacity: 0.5;
+}
+.site-footer hr.small {
+  margin: 20px 0;
+}
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+.site-footer a {
+  color: #000000;
+}
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-links li {
+  display: block;
+}
+.footer-links a {
+  color: #c3e9f3;
+}
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links.inline li {
+  display: inline-block;
+}
+.site-footer .social-icons {
+  text-align: right;
+}
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: #33353d;
+}
+.copyright-text {
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .site-footer [class^="col-"] {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center;
+  }
+}
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px;
+}
+.social-icons a {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+  color: #fff;
+  background-color: #29aafe;
+}
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+}
+.social-icons a.facebook:hover {
+  background-color: #3b5998;
+}
+.social-icons a.twitter:hover {
+  background-color: #00aced;
+}
+.social-icons a.linkedin:hover {
+  background-color: #007bb6;
+}
+.social-icons a.dribbble:hover {
+  background-color: #ea4c89;
+}
+@media (max-width: 767px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
+
+#test1::before,
+#test2::before {
+  display: block;
+  content: " ";
+  margin-top: -65px;
+  height: 65px;
+  visibility: hidden;
+}
+
+.my-custom-scrollbar {
+  position: relative;
+  width: 800px;
+  height: 400px;
+  overflow: auto;
+}
+
+.smooth-scroll {
+  scroll-behavior: smooth;
+}
