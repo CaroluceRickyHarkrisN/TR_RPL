@@ -174,11 +174,13 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     font-size: 34px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 
-
+.card-tt{
+  margin-top: 0.3rem;
+}
 
 .spot-tit{
     margin-top: 2rem;
