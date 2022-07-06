@@ -1,0 +1,43 @@
+
+.acc {
+  padding: 100px;
+}
+
+.map-container-3 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container-3 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.cont {
+  z-index : -1;
+}
+
+.review {
+  top        : 50%;
+  position   : absolute;
+  color      : white;
+  text-align : center;
+  width      : 100%;
+  transform  : translateY(-50%);
+
+}
+
+.wajah_orang {
+  width: 150px;
+  height: 180px;
+  object-fit: cover;
+
+}
+.like_icon {
+  width: 30px;
+  object-fit: cover;
+
+}
